@@ -8,9 +8,7 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 const galleryCard = document.querySelector('.gallery');
 const galleryImageCard = galleryImageCardMarkup(galleryItems);
 
-
 galleryCard.insertAdjacentHTML('beforeend', galleryImageCard);
-
 
 function galleryImageCardMarkup(galleryItems) {
 	return galleryItems
